@@ -1,3 +1,142 @@
-@charset "UTF-8";
-/* CSS Document */
 
+html {
+	font: normal,100%/1.6;
+	font-family: "Helvetica Neue";
+	height: 100%;
+}
+body {
+	margin: 0 0;
+}
+.grid {
+	
+	background-color: #93cd91;
+}
+.flex-img {
+	display: block;
+	width: 100%;
+}
+
+.grid {
+	overflow: hidden;
+}
+
+.unit {
+	float: left;
+}
+
+.unit-spacer {
+	padding: 2em;
+}
+
+header {
+	background-color: #e6e6e6;
+}
+
+.logo {
+	width: 10%;
+	padding: 3% 0 3% 5%;
+	
+}
+
+footer {
+background-color: #e6e6e6;
+padding: 3% 3%;
+text-align: right;
+}
+
+#btn{
+	font-size: 1.2rem;
+	padding: 0.5rem 2rem;
+	
+	background-image: linear-gradient(to top, #cccc, #fff);
+	color: black;
+	cursor: pointer;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+h1 {
+	font-weight: 300;
+}
+
+
+@media only screen and (max-width: 30em) {
+	
+	.logo {
+	width: 35%;
+	margin-left: 4%;
+	}
+	
+	
+	
+}
+	
+@media only screen and (max-width: 45em) {
+	
+	.logo {
+	width: 15%;
+	}
+	
+	.unit-s-1 {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+
+	
+}
+		
+@media only screen and (min-width: 46em) {
+		
+	.logo {
+	width: 10%;
+	margin-left: 2%;
+	}
+	
+	.unit-m-1-2 {
+		width: 48%;
+		
+		
+	}
+	
+	.grid {
+		padding-left: 2%;
+		padding-right: 2%;
+		
+	
+	
+	
+}
+	
+	
+@media only screen and (min-width: 56em) {	
+	
+	.unit-l-3 {
+		width: 35%;
+		padding-top: 4em;
+		padding-bottom: 4em;
+		margin-left: 7%;
+		
+		
+	}
+	.unit-l-2-3 {
+		width: 55%;
+		padding-top: 6em;
+		
+		
+	}
+	h1 {
+		font-size: 2.5em;}
+	p {
+		font-size: 130%;
+		font-weight: 300;	
+	
+	
+}
+	
+	.logo {
+		width: 7%;
+		margin-left: 4%;
+		padding: 1% 0 1% 7%;
+	}}
+		
