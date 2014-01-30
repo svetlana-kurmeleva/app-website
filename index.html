@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>App-Website</title>
+<link href="css/dialog-polyfill.css" rel="stylesheet">
 <link href="css/general.css" rel="stylesheet">
+<link href="css/video.css" rel="stylesheet">
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
 <meta name="viewport" content="width=device-width,initial-scale=1,target-densitydpi=device-dpi">
@@ -24,7 +26,15 @@
 
 <div class="unit unit-s-1 unit-m-1-2 unit-l-3">
 <div class="unit-spacer">
-<img src="http://placehold.it/250x280" class="flex-img" alt="">
+<img src="http://placehold.it/300x450">
+     
+	<button id="btn-open">Open Video</button>
+
+	<dialog id="video">
+    <button id="btn-close">×</button>
+    	<div id="video-placeholder"></div>
+    </dialog>
+
 </div>
 </div>
 
@@ -66,6 +76,8 @@
 <p class="copyright">© 2014 GMO app</p>
 </footer>
 <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="js/dialog-polyfill.js"></script>
+<script src="js/video.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
