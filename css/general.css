@@ -34,9 +34,90 @@ header {
 
 .logo {
 	width: 30%;
-	padding: 3% 0 3% 6%;
+	padding: 4% 0 4% 6%;
 	
 }
+
+/*animation1*/
+.logo-wrapper {
+	position: relative;
+}
+
+.spinner {
+	position: absolute;
+	left: 14.5%;
+	width: 40px;
+	margin-left: -20px;
+	top: -5px;
+	-webkit-animation: spinner-rotate 6s linear infinite;
+	-webkit-transform-origin: 50% 70px;
+	font-size: 98%;
+
+	/*animation-name: rocket-rotate;
+	aanimation-duratiobn: 6s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}*/
+}
+
+
+	
+@-webkit-keyframes spinner-rotate {
+	
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+/*end of animaton1*/
+
+
+
+
+/*animation2*/
+
+
+.dipper {
+	width: 100%;
+	opacity: 0;
+}
+.js-dipper-animate {
+-webkit-animation: dipper-fade 2s linear 1 forwards;
+	/*
+	animation-fill-mode: forward;
+	force the element to keep its state after the animation completes therefore matching the styles of the last frame of animation*/
+}
+
+@-webkit-keyframes dipper-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
 background-color: #e6e6e6;
@@ -232,6 +313,6 @@ h1 {
 	.logo {
 		width: 7%;
 		margin-left: 4%;
-		padding: 1% 0 1% 7%;
+		padding: 2% 0 2% 7%;
 	}}
 		

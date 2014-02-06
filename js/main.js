@@ -43,3 +43,24 @@ $('.prev').on('click', function () {
 	switchItems(current, prev); //execution of function 
 	
 });
+
+
+
+
+
+
+var $dipper = $('.dipper');
+$('.dipper-section').waypoint(function () {
+	$dipper.addClass('js-dipper-animate');
+}, { offset: '60%' });
+
+
+
+
+
+
+
+
+
+
+
